@@ -1,0 +1,18 @@
+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yum install git -y
+    2  mkdir swa
+    3  cd swa
+    4  git init
+    5  touch f1
+    6  vi f1
+    7  git add .
+    8  git status
+    9  git commit -m "first"
+   10  git log
+   11  git config --global user.name "swathi"
+   12  git config --global user.email " mailto:swathi@gmail.com "
+   13  git remote add origin  https://github.com/swathi-1996/ggg.git 
+   14  git push -u origin master
+   15  git clone  https://github.com/swathi-1996/ggg.git 
+   16  ls
+   17  cd ggg
+   18  ls
